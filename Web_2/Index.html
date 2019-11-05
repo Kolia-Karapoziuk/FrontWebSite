@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Добре Серце</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="shortcut icon" href="img/Лого.png" type="image/png">
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+</head>
+
+<body>
+    <div class="vse">
+        <div class="head">
+            <nav>
+                <div class="menu">
+                    <a href="Index.html"><img src="img/Лого.png" alt="logo"></a>
+                </div>
+            </nav>
+            <nav>
+                <div class="menu">
+                    <a href="#">Укр</a>
+                    <a href="#">Рус</a>
+                    <a href="#">EN</a>
+                </div>
+            </nav>
+            <nav>
+                <div class="menu">
+                    <div class="men">
+                        <a href="project.html">Проекти</a>
+                        <a href="arkhiv.html">Архів</a>
+                        <a href="contact.html">Контакти</a>
+                    </div>
+                    <div class="help">
+                        <a href="HelpMe.html">Термінова допомога</a>
+                    </div>
+                </div>
+            </nav>
+
+            <nav>
+                <div class="menu">
+                    <a href="#search-block">
+                        <img src="img/Shape.png" alt="shape" />
+                    </a>
+                </div>
+
+                <div class="search-block" id="search-block">
+                    <form id="search-form">
+                        <input type="text" id="search-input" placeholder="Пошук" autocomplete="off"
+                            onkeyup="RemoveForm()" onkeypress="addForm()" />
+                    </form>
+
+                    <div class="mainN" id="search">
+                        <div class="teXX">
+                            <div class="AppText">
+                                <p>Проекти</p>
+
+                                <div class="AppText2">
+                                    Діти
+                                    <div class="AppText3">
+                                        <p> Для операції на сердце маленькому<br />
+                                            хлопчику, необхідно зібрати гроші на ліки<br />
+                                        </p>
+
+                                        <p style="border:none;">
+                                            Збираємо гроші на лікування п’ятирічного <br />
+                                            Василя, який став жертвою ДТП
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="AppText2">
+                                    Війна
+                                    <div class="AppText3">
+                                        <p style="border: none;"> Необхідно зібрати ліки для поранених бійців <br />
+                                            із зони АТО </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="AppText4"></div>
+
+                            <div class="DownText">
+                                Архів
+                                <div class="DownText2">
+                                    Діти
+                                    <div class="DownText3">
+                                        <p>
+                                            Необхідно купити ліки для дитячого будинку<br />
+                                            в місті Київ
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="#">
+                        <img src="img/Shape Copy.png" alt="" class="cross-for-close" />
+                    </a>
+                </div>
+            </nav>
+            <nav>
+                <div class="menu">
+                    <a href="#">Вхід</a>/<a href="#">Зареєструватися</a>
+                </div>
+            </nav>
+        </div>
+        <!-- ----------------------------------------------- -->
+        <div class="cerce">
+            <img src="img/Сердце изометрия.png" alt="">
+        </div>
+        <nav>
+            <div class="detPr">
+                <a href="#">детальніше про проект
+                    <img src="img/strela.png" alt="">
+                </a>
+            </div>
+        </nav>
+        <div class="content">
+            <p>Добре Серце</p>
+        </div>
+        <nav>
+            <div class="Help3">
+                <a href="#modal-window-tab">Допомогти вже зараз</a>
+            </div>
+        </nav>
+
+
+
+        <div class="con1">
+            <hr width="40px">
+            <p><br>Вже зараз Ви можете допомогти тим, хто дійсно <br> потребує допомоги</p>
+        </div>
+
+        <nav>
+            <div class="addPr">
+                <a href="#">Додати проект <img src="img/2.png"></a>
+            </div>
+        </nav>
+
+        <div class="con3">
+            <hr width="40px">
+            <p><br>Якщо Вам необхідна допомога, додайте проект</p>
+        </div>
+
+        <nav>
+            <div class="Help2">
+                <a href="#modal-window-blur">Як Ви можете допомогти ?
+                    <img src="img/strela.png" alt=""></a>
+
+
+                <div class="modal-window-blur" id="modal-window-blur">
+                    <div class="modal-window" id="modal-window">
+                        <h1>Види допомоги</h1>
+                        <div class="type-of-help-modal-block">
+                            <div
+                                style="display: grid; align-items: center; color:#363B5D; font-family:Geometria ExtraBold, sans-serif; font-size: 1.3em; grid-template-columns: 30% 70%">
+
+                                <div class="div-img">
+                                    <img src="img/Zrobutu.svg" alt="">
+                                </div>
+
+                                <div>
+                                    Зробити
+                                    <div class="rete">
+                                        <p>
+                                            Натискайте цю кнопку,<br>
+                                            якщо Ви хочете зробити,<br>
+                                            наприклад: ремонт у <br>
+                                            дитячому будинку,<br>
+                                            складну операцію,<br>
+                                            побудувати дитячий<br>
+                                            майданчик або<br> побудувати житло<br>
+                                            для переселенців і тд.<br>
+                                            <br>
+                                            Ця кнопка, для <br>організацій, які можуть<br> взяти на себе
+                                            <br>відповідальність за увесь<br> проект.
+                                        </p>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div
+                                style="display: flex;align-items: center; color:#363B5D; font-family:Geometria ExtraBold, sans-serif; font-size: 1.3em;">
+                                <div class="div-img">
+                                    <img src="img/matD.svg" alt="">
+                                </div>
+                                <div>
+                                    Фінансова <br>допомога
+                                    <div class="rete1">
+                                        <p>
+                                            Перераховуйте гроші<br> тим, хто дійсно потребує <br>цього.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div
+                                style="display: flex;align-items: center; color:#363B5D; font-family:Geometria ExtraBold, sans-serif; font-size: 1.3em;">
+                                <div class="div-img">
+                                    <img src="img/finD.svg" alt="">
+                                </div>
+                                <div>
+                                    Матеріальна <br>допомога
+                                    <div class="rete">
+                                        <p>
+                                            Зберіть ліки, речі, їжу,<br>
+                                            іграшки та інше, для тих, <br>кому це необхідно.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                style="display: flex;align-items: center; color:#363B5D; font-family:Geometria ExtraBold, sans-serif; font-size: 1.3em;">
+                                <div class="div-img">
+                                    <img src="img/volont.svg" alt="">
+                                </div>
+                                <div>
+                                    Волонтерство
+                                    <div class="rete">
+                                        <p>
+                                            Допоможіть ділом або <br>професійними<br> навичками. <br>
+                                            Підтримайте проекти<br> своєю роботою.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#"> <img src="img/Shape Copy.png" alt="" class="cross-for-close2"></a>
+                </div>
+        </nav>
+
+        <!--"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""" -->
+        <nav>
+            <div class="modal-window-blur" id="modal-window-tab">
+                <div class="modalForm" id="modalForm">
+                    <h1>Заповніть форму</h1>
+
+                    <div class="typeModBlock">
+                        <div class="tabs">
+                            <div class="tab1 ">
+                                <button class="w3-bar-item w3-button tablink  tabul tabActive"
+                                    onclick="openLink(event, '#')">Фіз.
+                                    особа
+                                </button>
+                            </div>
+
+                            <div class="tab2">
+                                <button class="w3-bar-item w3-button tablink tabul"
+                                    onclick="openLink(event, 'FizOs')">Юр.
+                                    особа
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="ConIn">
+                        <form class="InNa">
+                            <div class="namAnd">
+                                <div>
+                                    <label for="Imya">Ім'я</label>
+                                    <input type="text" name="Imya" autocomplete="off">
+                                </div>
+
+                                <div>
+                                    <label for="surname">Прізвище</label>
+                                    <input type="text" name="surname" autocomplete="off">
+                                </div>
+                            </div>
+
+                            <div class="orgName">
+                                <label for="surname">Назва компаніі, організації</label>
+                                <input type="text" name="surname" autocomplete="off">
+                            </div>
+
+                            <div class="orgName">
+
+                                <label for="surname">Email-адрес</label>
+                                <input type="email" name="surname" autocomplete="off">
+                            </div>
+
+                            <div class="orgName">
+                                <label for="phone">Номер телефону</label>
+                                <input type="tel" name="phone" autocomplete="off">
+                            </div>
+                        </form>
+                        <!--    qqqq        -->
+                        <form class="InNa2">
+                            <div class="country">
+                                <label for="surname">Країна</label>
+                                <input type="text" name="surname" autocomplete="off">
+                            </div>
+
+                            <div class="namCount">
+                                <div>
+                                    <label for="Imya">Місто</label>
+                                    <input type="text" name="Imya" autocomplete="off">
+                                </div>
+
+                                <div>
+                                    <label for="surname">Штат, район</label>
+                                    <input type="text" name="surname" autocomplete="off">
+                                </div>
+                            </div>
+
+                            <div class="adresa">
+                                <label for="surname">Адреса</label>
+                                <input type="text" name="surname" autocomplete="off">
+                            </div>
+
+                            <div class="namCount">
+                                <div id="postI">
+                                    <label for="Imya">Поштовий Індекс</label>
+                                    <input type="text" name="Imya" autocomplete="off">
+                                </div>
+                            </div>
+                    </div>
+                    </form>
+
+                    <div id="FizOs" class="w3-container city w3-animate-opacity" style="display:none">
+                        <div class="ConIn">
+                            <form class="InNa">
+
+                                <div class="orgName">
+                                    <label for="surname">Юридична адреса</label>
+                                    <input type="text" name="surname" autocomplete="off">
+                                </div>
+
+                                <div class="namAnd" id="Bank">
+                                    <div>
+                                        <label for="Imya">Найменування Банку</label>
+                                        <input type="text" name="Imya" autocomplete="off">
+                                    </div>
+
+                                    <div>
+                                        <label for="surname">МФО Банку</label>
+                                        <input type="text" name="surname" autocomplete="off">
+                                    </div>
+                                </div>
+
+                                <div class="orgName">
+
+                                    <label for="surname">Розрахунковий рахунок</label>
+                                    <input type="text" name="surname" autocomplete="off">
+                                </div>
+                            </form>
+
+
+                            <form class="InNa3">
+                                <div class="namCount2">
+                                    <div>
+                                        <label for="Imya">ЗКПО</label>
+                                        <input type="text" name="Imya" autocomplete="off">
+                                    </div>
+
+                                    <div>
+                                        <label for="surname">Тип оподаткування</label>
+                                        <input type="text" name="surname" autocomplete="off">
+                                    </div>
+                                </div>
+                                <div class="namCount2">
+                                    <div>
+                                        <label for="Imya">ІНН</label>
+                                        <input type="text" name="Imya" autocomplete="off">
+                                    </div>
+
+                                    <div>
+                                        <label for="surname">Система оподаткування</label>
+                                        <input type="text" name="surname" autocomplete="off">
+                                    </div>
+                                </div>
+                                <div class="namCount2">
+                                    <div>
+                                        <label for="Imya">Телефон бугалтерії</label>
+                                        <input type="text" name="Imya" autocomplete="off">
+                                    </div>
+
+                                    <div>
+                                        <label for="surname">Факс</label>
+                                        <input type="text" name="surname" autocomplete="off">
+                                    </div>
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+
+                    <div class="vDop">
+                        <h1>Види допомоги</h1>
+                        <div class="textDop">
+                            <p>Ви можете змінити вид допомоги</p>
+                        </div>
+
+                        <div class="conImgZR">
+                            <div class="StyleGrid">
+                                <div class="conGridS">
+
+                                    <div class="conImgS">
+                                        <img src="img/Zrobutu.svg" alt="">
+                                    </div>
+                                    <p>Зробити</p>
+
+                                </div>
+                            </div>
+
+                            <div class="conGridS">
+                                <div class="conImgS">
+                                    <img src="img/matD.svg" alt="">
+                                </div>
+
+                                <p>Фінансова</p>
+                            </div>
+
+                            <div class="conGridS">
+                                <div class="conImgS">
+                                    <img src="img/finD.svg" alt="">
+                                </div>
+                                <p>Матеріальна</p>
+                            </div>
+
+                            <div class="conGridS">
+                                <div class="conImgS">
+                                    <img src="img/volont.svg" alt="">
+                                </div>
+                                <div>
+                                    <p>Волонтерство</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pay">
+                            <div class="payAC">
+                                <div class="spPay">
+                                    <p>Спосіб оплати</p>
+                                </div>
+
+                                <div class="cardPay">
+
+                                    <div class="cardVisa">
+                                        <img src="img/Мастеркард.svg" alt="">
+                                        <img src="img/Layer_1_copy_24_.svg" alt="" id="cVisa">
+                                        <p>Карта Visa/MasterCard</p>
+                                    </div>
+                                </div>
+
+                                <div class="cardPay">
+                                    <div class="cardVisa">
+                                        <img src="img/Capa_1_1_.svg" alt="">
+                                        <p>WebMoney</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="payAC">
+                                <div class="cardPay">
+                                    <div class="cardPr24">
+                                        <div class="cardPr_1">
+                                            <p>Приват24</p>
+                                        </div>
+                                        <p>Приват24</p>
+                                    </div>
+                                </div>
+
+                                <div class="cardPay">
+                                    <div class="cardVisa">
+                                        <img src="img/paypal-logo.svg" alt="">
+                                        <p>PayPal</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="payAC">
+                                <div class="cardPay">
+                                    <div class="cardTerminal">
+                                        <img src="img/the-tube-terminal.svg" alt="">
+                                        <p>Термінали України</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="cardPayment">
+                                <div>
+                                    <form action="">
+                                        <div class="cardPayment2">
+                                            <label for="">Номер карти</label>
+                                            <div id="VIDSTUP"><input type="text" onkeypress='validate(event)'
+                                                    maxlength="4"></div>
+                                            <div><input type="text" onkeypress='validate(event)' maxlength="4"></div>
+                                            <div><input type="text" onkeypress='validate(event)' maxlength="4"></div>
+                                            <div id="VIDSTUP2"><input type="text" onkeypress='validate(event)'
+                                                    maxlength="4"></div>
+                                    </form>
+                                </div>
+
+                                <div>
+                                    <form action="">
+                                        <div class="CVV">
+                                            <div>
+                                                <label for="">Термін дії</label>
+                                                <div id="VIDSTUP">
+                                                    <input type='text' id="yearTime" onkeypress='validate(event)'
+                                                        maxlength="4">
+                                                </div>
+                                            </div>
+                                            <div class="labela">
+                                                <label for="">CVC/CVV</label>
+                                                <div id="VIDSTUP2"><input type='password' onkeypress='validate(event)'
+                                                        maxlength="3"></div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <input type="submit" class="typVZE" value="Допомогти">
+                    </div>
+                    <a href="#"> <img src="img/Shape Copy.png" alt="" class="cross-for-close2"></a>
+                </div>
+        </nav>
+
+
+        <!-- 111111111111111111111111111111111111111111111111111111111111111111111111111 -->
+
+        <nav>
+            <div class="social">
+                Розповісти всім:
+                <a href="#"><img src="img/tw.png" alt=""></a>
+                <a href="#"><img src="img/fs.png" alt=""></a>
+                <a href="#"><img src="img/vk.png" alt=""></a>
+            </div>
+        </nav>
+
+        <nav>
+            <div class="chat">
+                <a href="#">
+                    <img src="img/Чат.png" alt="">
+                </a>
+            </div>
+        </nav>
+    </div>
+    </div>
+    <script src="js/script.js"></script>
+    <script src="js/jquery.maskedinput.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
+</body>
+
+</html>
